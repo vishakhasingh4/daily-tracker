@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Route, Routes, BrowserRouter, HashRouter } from "react-router-dom";
-import Demo from "./components/Demo";
+import Demo from "./components/Demo/Demo";
 import Dashboard from "./layout/Dashboard/Dashboard";
 
 const App = () => {
