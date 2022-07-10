@@ -20,6 +20,7 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
+        // empty comment
     },
     "include": [
         "src",
