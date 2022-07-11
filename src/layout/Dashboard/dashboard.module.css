@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "icard ccard "
+    "cr ccard ";
+  gap: var(--space-16);
+  padding: var(--space-40);
+  /* grid-template-rows: 50px 1fr 30px; */
+  grid-template-columns: 1fr 2fr;
+  height: 93vh;
+}
+
+.infoCard {
+  grid-area: "icard";
+}
+
+.tracker {
+  grid-area: "ccard";
+  /* background-color: #ffa08c; */
+}
+
+.crousel {
+  grid-area: "cr";
+}
