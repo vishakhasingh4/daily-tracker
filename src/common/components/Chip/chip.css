@@ -1,0 +1,40 @@
+.dt-chip-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-8);
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 16px;
+  font-size: var(--font-size-12);
+  white-space: nowrap;
+  width: fit-content;
+  min-width: 48px;
+  font-weight: var(--font-weight-500);
+  color: var(--text-color-primary);
+}
+
+.dt-chip-small {
+  height: 16px;
+}
+
+.dt-chip-medium {
+  height: 20px;
+}
+
+.dt-chip-large {
+  height: 24px;
+}
+
+.dt-chip-primary {
+  /* color: var(--) */
+}
+
+.dt-chip-secondary {
+}
+
+.dt-chip-default {
+  border-color: var(--gray-5);
+}
